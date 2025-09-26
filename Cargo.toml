@@ -1,0 +1,12 @@
+[package]
+name = "mirrord-protocol-fair-send-poc"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+bincode = "2"
+bytes = "1"
+futures = "0.3"
+rand = "0.9"
+tokio = { version = "1", features = ["full"] }
+tokio-util = { version = "0.7", features = ["codec"] }
